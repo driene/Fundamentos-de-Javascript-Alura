@@ -6,4 +6,13 @@ let cadastroAtivado = true;
 const texto1 = "Alura";
 const texto2 = "alura";
 
-console.log (texto1 === texto2);
+let input = null;
+
+if (input === null) {
+ console.log('não há informação');
+} else {
+ console.log(input);
+}
+
+console.log(null == undefined); // true
+console.log(null === undefined); // false
