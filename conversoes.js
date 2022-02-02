@@ -17,4 +17,3 @@ console.log(numero + Number(numeroString))
 //String()
 console.log(String(numero) + numeroString)
 
-
